@@ -9,10 +9,11 @@
     <meta name="description" content="" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="fa/css/all.min.css" />
     <link rel="stylesheet" href="css/web-font.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style-pc.css" media="screen and (min-width: 1000.0px)" />
     <link rel="stylesheet" href="css/style-m.css" media="screen and (max-width: 999.9px)" />
+    <script src="https://kit.fontawesome.com/e49d80e529.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>
@@ -30,107 +31,110 @@
             <li><a href="#" target="_blank">문화관광</a></li>
             <li><a href="#" target="_blank">동의보감촌</a></li>
           </ul>
-          <a href="#">패밀리사이트<i class="fa-solid fa-chevron-down"><span>더보기</span></i></a>
-          <div class="family_pop">
-            <div class="inner_top">
-              <p>주요사이트를 한눈에!</p>
-              <span>산청군 패밀리 홈페이지 모아보기</span>
-              <a href="#"><img alt="닫기버튼" src="./img/header/allmn_close.png"></a>
-            </div>
-            <div class="inner_bottom">
-              <ul>
-                <li>
-                  <dl>
-                    <dt>의회/직속기관/사업소</dt>
-                    <dd>산청군의회</dd>
-                    <dd>보건의료원</dd>
-                    <dd>농업기술센터</dd>
-                    <dd>농기계임대사업소</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl>
-                    <dt>읍면</dt>
-                    <dd>산청읍</dd>
-                    <dd>차황면</dd>
-                    <dd>오부면</dd>
-                    <dd>생초면</dd>
-                    <dd>금서면</dd>
-                    <dd>삼장면</dd>
-                    <dd>시천면</dd>
-                    <dd>단성면</dd>
-                    <dd>신안면</dd>
-                    <dd>생비량면</dd>
-                    <dd>신등면</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl>
-                    <dt>교육/문화</dt>
-                    <dd>산청박물관</dd>
-                    <dd>산청도서관</dd>
-                    <dd>산청지리산도서관</dd>
-                    <dd>산청군 작은영화관</dd>
-                    <dd>산청교육지원청</dd>
-                    <dd>산청문화원</dd>
-                    <dd>간디학교</dd>
-                    <dd>지리산 고등학교</dd>
-                    <dd>산청함양사건추모공원</dd>
-                    <dd>겁외사</dd>
-                    <dd>산청군청소년수련관</dd>
-                    <dd>한국선비문화연구원</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl>
-                    <dt>복지/생활</dt>
-                    <dd>귀농귀촌</dd>
-                    <dd>산청군 자원봉사센터</dd>
-                    <dd>대포정보화마을</dd>
-                    <dd>성심원</dd>
-                    <dd>산엔청복지관</dd>
-                    <dd>산청지역자활센터</dd>
-                    <dd>산청경찰서</dd>
-                    <dd>산청우체국</dd>
-                    <dd>양잠협동조합</dd>
-                    <dd>함양산청축협</dd>
-                    <dd>산엔청 쇼핑몰</dd>
-                    <dd>경남공감</dd>
-                    <dd>공무원 노동조합</dd>
-                    <dd>산청군지역사회보장협의체</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl>
-                    <dt>한방</dt>
-                    <dd>동의보감촌</dd>
-                    <dd>산청한방약초축제</dd>
-                    <dd>산청한방항노화</dd>
-                    <dd>경남한방항노화연구원</dd>
-                    <dd>산청한의학박물관</dd>
-                    <dd>산청한방자연휴양림</dd>
-                  </dl>
-                </li>
-                <li>
-                  <dl>
-                    <dt>관광/축제</dt>
-                    <dd>문화관광</dd>
-                    <dd>남사예담촌</dd>
-                    <dd>둔철생태숲(천문대)</dd>
-                    <dd>산청 치유의 숲</dd>
-                  </dl>
-                </li>
-              </ul>
+          <a href="#" class="family_site">패밀리사이트<i class="fa-solid fa-chevron-down"><span>더보기</span></i></a>
+          <div class="pop_container">
+            <div class="family_pop">
+              <div class="inner_top">
+                <p>주요사이트를 한눈에!</p>
+                <span>산청군 패밀리 홈페이지 모아보기</span>
+                <a href="#"><img alt="닫기버튼" src="./img/header/allmn_close.png"></a>
+              </div>
+              <div class="inner_bottom">
+                <ul>
+                  <li>
+                    <dl>
+                      <dt>의회/직속기관/사업소</dt>
+                      <dd><a href="#" target="_blank">산청군의회</a></dd>
+                      <dd><a href="#" target="_blank">보건의료원</a></dd>
+                      <dd><a href="#" target="_blank">농업기술센터</a></dd>
+                      <dd><a href="#" target="_blank">농기계임대사업소</a></dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <dl>
+                      <dt>읍면</dt>
+                      <dd><a href="#" target="_blank">산청읍</a></dd>
+                      <dd><a href="#" target="_blank">차황면</a></dd>
+                      <dd><a href="#" target="_blank">오부면</a></dd>
+                      <dd><a href="#" target="_blank">생초면</a></dd>
+                      <dd><a href="#" target="_blank">금서면</a></dd>
+                      <dd><a href="#" target="_blank">삼장면</a></dd>
+                      <dd><a href="#" target="_blank">시천면</a></dd>
+                      <dd><a href="#" target="_blank">단성면</a></dd>
+                      <dd><a href="#" target="_blank">신안면</a></dd>
+                      <dd><a href="#" target="_blank">생비량면</a></dd>
+                      <dd><a href="#" target="_blank">신등면</a></dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <dl>
+                      <dt>교육/문화</dt>
+                      <dd><a href="#" target="_blank">산청박물관</a></dd>
+                      <dd><a href="#" target="_blank">산청도서관</a></dd>
+                      <dd><a href="#" target="_blank">산청지리산도서관</a></dd>
+                      <dd><a href="#" target="_blank">산청군 작은영화관</a></dd>
+                      <dd><a href="#" target="_blank">산청교육지원청</a></dd>
+                      <dd><a href="#" target="_blank">산청문화원</a></dd>
+                      <dd><a href="#" target="_blank">간디학교</a></dd>
+                      <dd><a href="#" target="_blank">지리산 고등학교</a></dd>
+                      <dd><a href="#" target="_blank">산청함양사건추모공원</a></dd>
+                      <dd><a href="#" target="_blank">겁외사</a></dd>
+                      <dd><a href="#" target="_blank">산청군청소년수련관</a></dd>
+                      <dd><a href="#" target="_blank">한국선비문화연구원</a></dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <dl>
+                      <dt>복지/생활</dt>
+                      <dd><a href="#" target="_blank">귀농귀촌</a></dd>
+                      <dd><a href="#" target="_blank">산청군 자원봉사센터</a></dd>
+                      <dd><a href="#" target="_blank">대포정보화마을</a></dd>
+                      <dd><a href="#" target="_blank">성심원</a></dd>
+                      <dd><a href="#" target="_blank">산엔청복지관</a></dd>
+                      <dd><a href="#" target="_blank">산청지역자활센터</a></dd>
+                      <dd><a href="#" target="_blank">산청경찰서</a></dd>
+                      <dd><a href="#" target="_blank">산청우체국</a></dd>
+                      <dd><a href="#" target="_blank">양잠협동조합</a></dd>
+                      <dd><a href="#" target="_blank">함양산청축협</a></dd>
+                      <dd><a href="#" target="_blank">산엔청 쇼핑몰</a></dd>
+                      <dd><a href="#" target="_blank">경남공감</a></dd>
+                      <dd><a href="#" target="_blank">공무원 노동조합</a></dd>
+                      <dd><a href="#" target="_blank">산청군지역사회보장협의체</a></dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <dl>
+                      <dt>한방</dt>
+                      <dd><a href="#" target="_blank">동의보감촌</a></dd>
+                      <dd><a href="#" target="_blank">산청한방약초축제</a></dd>
+                      <dd><a href="#" target="_blank">산청한방항노화</a></dd>
+                      <dd><a href="#" target="_blank">경남한방항노화연구원</a></dd>
+                      <dd><a href="#" target="_blank">산청한의학박물관</a></dd>
+                      <dd><a href="#" target="_blank">산청한방자연휴양림</a></dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <dl>
+                      <dt>관광/축제</dt>
+                      <dd><a href="#" target="_blank">문화관광</a></dd>
+                      <dd><a href="#" target="_blank">남사예담촌</a></dd>
+                      <dd><a href="#" target="_blank">둔철생태숲(천문대)</a></dd>
+                      <dd><a href="#" target="_blank">산청 치유의 숲</a></dd>
+                    </dl>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <a href="#"><span>코로나19 상황보기</span></a>
-          <ul>
+
+          <a href="#" class="covid"><span>코로나19 상황보기</span></a>
+          <ul class="menu_list">
             <li><a href="#" target="_blank"><i class="fa-solid fa-cart-shopping"></i><p>산엔청쇼핑몰</p></a></li>
             <li><a href="#" target="_blank"><i class="fa-solid fa-lock"></i><p>인증하기</p></a></li>
-            <li><a href="#" target="_blank"><i class="fa-solid fa-bars"></i><p>전체메뉴</p></a></li>
+            <li class="full_menu"><a href="#" target="_blank"><i class="fa-solid fa-bars"></i><p>전체메뉴</p></a></li>
             <li>
               <a href="#" target="_blank"><i class="fa-solid fa-globe"></i><p>language</p></a>
-              <ul>
+              <ul class="lang">
                 <li><a href="#" target="_blank">English</a></li>
                 <li><a href="#" target="_blank">Japanese</a></li>
                 <li><a href="#" target="_blank">Chinese</a></li>
@@ -141,7 +145,7 @@
         <div class="header-bottom">
           <nav>
             <ul class="depth01">
-              <li><a href="#">감동민원</a>
+              <li class="on"><a href="#">감동민원</a>
                 <div class="nav_container">
                   <div class="title_box">
                     <span>감동민원</span>
@@ -634,14 +638,13 @@
             </ul>
           </nav>
           <a href="#" class="sub_on">
-            <img alt="검색하기" src="">
-            <img alt="검색창 닫기" src="">
+            <img alt="검색창 열기/닫기" src="./img/header/search_sprite.png">
           </a>
-          <div class="search_box sub_on">
+          <div class="search_box">
             <div class="input_box">
               <label for="search-pop" class="ir-hidden">검색</label>
               <input type="text" name="" id="search-pop" value="" placeholder="검색어를 입력해보세요" />
-              <img alt="검색버튼" src="">
+              <a href="#"><img alt="검색버튼" src="./img/header/search_sprite.png"></a>
             </div>
             <p>인기검색어</p>
           </div>
@@ -1460,8 +1463,17 @@
 
 <script>
   'use strict'
+  $('a.family_site').on('click', function() {
+    $(this).next('div.pop_container').addClass('on');
+    $('body.main').addClass('on');
 
+  });
 
+  $('div.inner_top > a').on('click', function() {
+    $('div.pop_container').removeClass('on');
+  });
+
+  
 
 </script>
   
